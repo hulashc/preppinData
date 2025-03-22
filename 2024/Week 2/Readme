@@ -1,0 +1,9 @@
+Week 2 - We can drag the dataset on to other to either replace, union or join. We did union.
+When we union, the tables are stacked on top of each other. Good if their are similar field structure.
+We can convert the date structure into other date structures, in More options, Convert Date.
+We converted to Yearly quarters - 1,2,3,4.
+For median, min, max - we use aggregation step. We create three agregation steps separately.
+We aggregated with Max/Median/Min price per Quarter, flow card?, class
+We then pivot the table selecting rows to columns option. because we need class as columns.
+After doing these separately for all three aggregation we have to make a union. Don't forget to rename the columns.
+We see a discreprency in the classes. We sort it out be renaming and making a output.
