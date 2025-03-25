@@ -6,5 +6,5 @@ END
 Then we group by seat, row, class, flow card? and aggregate by Sum of Number of Rows(Aggregate).
 This helps to know how frequently a particular **seat-row-class-flow card** combination appears. It can be used to detect patterns or inconsistencies (e.g., if certain seats are always classified as "Flow card").
 It may assist in **capacity planning**, **trend analysis**, or **optimization of seating arrangements**.
-Then we union the data with the seat plan, only to keep the seats that are not booked.
+Then we union the data with the seat plan, only to keep the seats that are not booked. Remove the unnecerady columns.
 We get a final table where there are only seats that are not booked.
